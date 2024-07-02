@@ -8,7 +8,7 @@
     <router-link to="/contacts"> Contacts </router-link>
   </nav> -->
   
-  <div class="stuff" style="height: 100vh">
+  <div class="stuff" style="height: 130vh">
     <Navbar-comp/>
 
     <div class="middle">
@@ -18,7 +18,7 @@
   
       <div class="par">
         <h4> Hello There. </h4>  
-        <h1> <i> I am YONELA MANGELE. </i> </h1> 
+        <h1> <i> I am <b> YONELA MANGELE. </b> </i> </h1> 
         <h4> An aspiring web developer. </h4>
       </div>
     </div>
@@ -122,14 +122,15 @@ animation: slide-in-right 1s forwards; */
 }
 
 .par {
-  height: 328px;
+  height: 400px;
   color: white;
-  margin-top: 70px;
+  /* margin-top: 70px; */
+  align-content: center;
 }
 
 .middle {
-    margin: 15ch;
-    height: 300px;
+    margin: 5ch;
+    height: 400px;
     display: flex;
     justify-content: space-evenly;
 }
